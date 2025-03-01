@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio de Fotografía</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- Página de inicio -->
+    <header class="intro">
+        <div class="profile-photo">
+            <img src="images/mi_foto.jpg" alt="Mi Foto de Perfil">
+        </div>
+        <div class="intro-text">
+            <h1>Bienvenido a mi Portafolio</h1>
+            <p>Soy [Tu Nombre], fotógrafo profesional especializado en [tu especialidad]. Explora mis trabajos.</p>
+        </div>
+    </header>
+
+    <!-- Galería -->
+    <section id="gallery">
+        <h2>Mi Galería</h2>
+        <div class="gallery-container">
+            <!-- Imagen 1 -->
+            <div class="gallery-item">
+                <img src="images/foto1.jpg" alt="Foto 1">
+                <div class="overlay">
+                    <button class="download-btn">Descargar</button>
+                    <button class="select-btn">Seleccionar para impresión</button>
+                </div>
+            </div>
+            <!-- Más imágenes -->
+            <!-- Repítelo para cada imagen que quieras agregar -->
+        </div>
+    </section>
+
+    <!-- Modal para visualizar imagen en detalle -->
+    <div id="modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
